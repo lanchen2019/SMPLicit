@@ -15,3 +15,9 @@ We provide a sample of the data used for testing under the `data/` folder and yo
 ```
 python fit_SMPLicit.py
 ```
+
+For your own testing images, we need to get the smpl prediction with [FrankMoCap](https://github.com/facebookresearch/frankmocap)
+```
+python -m demo.demo_bodymocap --input_path ../data/images/ --out_dir ../data/smpl_prediction --save_pred_pkl
+```
+
